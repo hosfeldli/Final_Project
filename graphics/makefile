@@ -25,8 +25,11 @@ run: $(OUT)
 	vvp $(OUT)
 
 # View the waveform using GTKWave
-view: $(VCD)
+wave: $(VCD)
 	gtkwave $(VCD)
+
+view: $(OUT)
+	python3 ./tb/tb_visualize.py
 
 # Clean up generated files
 clean:
