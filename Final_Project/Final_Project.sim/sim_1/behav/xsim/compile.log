@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/ClockDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClockDivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/NoteDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NoteDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/NoteDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NoteDisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/SDPMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SDPMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/SpriteRenderer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SpriteRenderer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/VGA_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/graphics/tb/tb_NoteDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lhosfeld/Documents/ADD/Final_Project/Final_Project/Final_Project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

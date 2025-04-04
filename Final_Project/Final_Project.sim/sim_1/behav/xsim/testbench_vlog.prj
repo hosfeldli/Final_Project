@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../graphics/src/ClockDivider.v" \
+"../../../../../graphics/src/NoteDecoder.v" \
+"../../../../../graphics/src/NoteDisplay.v" \
+"../../../../../graphics/src/SDPMem.v" \
+"../../../../../graphics/src/SpriteRenderer.v" \
+"../../../../../graphics/src/VGA_Controller.v" \
+"../../../../../graphics/tb/tb_NoteDisplay.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

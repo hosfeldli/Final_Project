@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/lhosfeld/Documents/ADD/Final_Project/Final_Project/Final_Project.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/ClockDivider.v,1743467956,verilog,,/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/NoteDecoder.v,,ClockDivider,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/NoteDecoder.v,1743726022,verilog,,/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/NoteDisplay.v,,NoteDecoder,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/NoteDisplay.v,1743724440,verilog,,/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/SDPMem.v,,NoteDisplay,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/SDPMem.v,1743726110,verilog,,/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/SpriteRenderer.v,,SDPMem,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/SpriteRenderer.v,1743725843,verilog,,/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/VGA_Controller.v,,SpriteRenderer,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/src/VGA_Controller.v,1743468197,verilog,,/home/lhosfeld/Documents/ADD/Final_Project/graphics/tb/tb_NoteDisplay.v,,VGA_Controller,,,,,,,,
+/home/lhosfeld/Documents/ADD/Final_Project/graphics/tb/tb_NoteDisplay.v,1743726295,verilog,,,,testbench,,,,,,,,

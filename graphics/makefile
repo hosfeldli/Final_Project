@@ -1,38 +1,30 @@
-# Makefile for building the VGA interface project
+# Compiler and Simulation Tools
+VLOG = iverilog
+VVP = vvp
+WAVE = gtkwave
 
-# Compiler and flags
-CC = iverilog
-CFLAGS = -g2012
+# Directories
+SRC_DIR = src
+BIN_DIR = bin
 
-# Source files
-SRC = ./tb/tb_int_vga.v ./src/int_vga.v
+# Project Files
+SRC = $(wildcard $(SRC_DIR)/*.v)
+TB = tb/tb_NoteDisplay.v
+OUT = $(BIN_DIR)/simv
+WAVE_FILE = $(BIN_DIR)/waveform.vcd
 
-# Output file
-OUT = ./bin/tb_int_vga
+# Compile Verilog files
+compile: $(BIN_DIR)
+	$(VLOG) -o $(OUT) $(SRC) $(TB)
 
-# VCD file for waveform
-VCD = ./bin/tb_int_vga.vcd
+# Run simulation
+run: compile
+	$(VVP) $(OUT)
 
-# Default target
-all: $(OUT)
-
-# Compile the Verilog files
-$(OUT): $(SRC)
-	$(CC) $(CFLAGS) -o $(OUT) $(SRC)
-
-# Run the simulation
-run: $(OUT)
-	vvp $(OUT)
-
-# View the waveform using GTKWave
-wave: $(VCD)
-	gtkwave $(VCD)
-
-view: $(OUT)
-	python3 ./tb/tb_visualize.py
+# Open waveform in GTKWave
+wave:
+	$(WAVE) $(WAVE_FILE) &
 
 # Clean up generated files
 clean:
-	rm -rf ./bin/*
-
-.PHONY: all run view clean
+	rm -rf $(BIN_DIR)
